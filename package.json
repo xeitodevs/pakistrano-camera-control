@@ -1,0 +1,24 @@
+{
+  "name": "pakistrano",
+  "version": "0.0.1",
+  "description": "A pakis control system.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "nyc --reporter=lcov ava test/ --verbose",
+    "lint": "standard",
+    "precommit": "npm test && npm run lint"
+  },
+  "keywords": [
+    "pakis",
+    "control",
+    "system"
+  ],
+  "author": "xeitodevs",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "husky": "^0.14.3",
+    "nyc": "^11.4.1",
+    "standard": "^10.0.3"
+  }
+}
