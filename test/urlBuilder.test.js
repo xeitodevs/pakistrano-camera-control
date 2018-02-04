@@ -3,7 +3,7 @@
 const test = require('ava')
 const UrlBuilder = require('../lib/urlBuilder').UrlBuilder
 
-test('Asserting url builder without params.', (t) => {
+test('Asserting url builder without params unit test.', (t) => {
   const baseCases = [
     'http://www.test.com',
     'http://test.com'

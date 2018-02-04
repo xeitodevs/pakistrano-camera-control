@@ -12,18 +12,18 @@ test.afterEach(async () => {
   await pakistranoCameraControl.stopAxes()
 })
 
-test.serial('Move to right.', async (t) => {
+test.serial('Move to right integration test.', async (t) => {
   await t.notThrows(pakistranoCameraControl.startMoveToRight())
 })
 
-test.serial('Move to left.', async (t) => {
+test.serial('Move to left integration test.', async (t) => {
   await t.notThrows(pakistranoCameraControl.startMoveToLeft())
 })
 
-test.serial('Camera center.', async (t) => {
+test.serial('Camera center integration test.', async (t) => {
   await t.notThrows(pakistranoCameraControl.centerCamera())
 })
 
-test.serial('Stopping axes.', async (t) => {
+test.serial('Stopping axes integration test.', async (t) => {
   await t.notThrows(pakistranoCameraControl.stopAxes())
 })

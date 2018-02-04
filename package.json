@@ -5,6 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "nyc --reporter=lcov ava test/ --verbose",
+    "unit-test": "nyc --reporter=lcov ava test/ --verbose --match='*unit test*'",
+    "integration-test": "nyc --reporter=lcov ava test/ --verbose --match='*integration test*'",
     "lint": "standard",
     "precommit": "npm test && npm run lint"
   },
