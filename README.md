@@ -5,7 +5,7 @@ With this library you can interact with the foscam camera device family.
 ### Tested models
 - FI8910W
 
-You can see the public promise based interface [here]('./lib/index.js')
+You can see the public promise based interface [here](lib/index.js)
 
 ### Example usage
 ```javascript
