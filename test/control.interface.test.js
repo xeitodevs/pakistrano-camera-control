@@ -1,12 +1,7 @@
 'use strict'
 
 const test = require('ava')
-const PakistranoCameraControl = require('../lib/index')
-const pakistranoCameraControl = new PakistranoCameraControl({
-  host: '10.0.8.4',
-  user: 'admin',
-  password: 'admin'
-})
+const pakistranoCameraControl = require('../lib/pakistranoFactory')
 
 const sleep = async (seconds) => {
   return new Promise(resolve => setTimeout(resolve, seconds * 1000))

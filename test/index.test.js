@@ -1,10 +1,5 @@
 const test = require('ava')
-const PakistranoCameraControl = require('../lib/index')
-const pakistranoCameraControl = new PakistranoCameraControl({
-  host: '10.0.8.4',
-  user: 'admin',
-  password: 'admin'
-})
+const pakistranoCameraControl = require('../lib/pakistranoFactory')
 
 test('Ensure exception on bad camera request unit test.', (t) => {
   const cameraResponse = '<<<  >>'
