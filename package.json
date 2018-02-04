@@ -8,7 +8,7 @@
     "unit-test": "nyc --reporter=lcov ava test/ --verbose --match='*unit test*'",
     "integration-test": "nyc --reporter=lcov ava test/ --verbose --match='*integration test*'",
     "lint": "standard",
-    "precommit": "npm test && npm run lint"
+    "precommit": "npm run unit-test && npm run lint"
   },
   "keywords": [
     "pakis",
