@@ -16,7 +16,7 @@ const pakistranoCameraControl = new PakistranoCameraControl({
   password: 'admin'
 })
 
-const sleep = async (seconds) => {
+const sleep = (seconds) => {
   return new Promise(resolve => setTimeout(resolve, seconds * 1000))
 }
 
@@ -32,6 +32,22 @@ const sleep = async (seconds) => {
     const videoStream = await pakistranoCameraControl.getVideoStream()
     videoStream.pipe(process.stdout)
 })()
+```
+
+### How to run tests
+To run all tests you must
+```bash
+# run all tests (you must have a camera available on your network).
+# Defaults are admin:admin@localhost
+CAMERA_HOST=192.168.1.4 CAMERA_USER=admin CAMERA_PASSWORD=admin npm test
+
+# run unit tests
+npm run unit-test
+
+
+# run intergation tests (you must have a camera available on your network)
+CAMERA_HOST=192.168.1.4 CAMERA_USER=admin CAMERA_PASSWORD=admin npm test
+
 ```
 
 ### Authors and maintainers
