@@ -44,7 +44,6 @@ CAMERA_HOST=192.168.1.4 CAMERA_USER=admin CAMERA_PASSWORD=admin npm test
 # run unit tests
 npm run unit-test
 
-
 # run intergation tests (you must have a camera available on your network)
 CAMERA_HOST=192.168.1.4 CAMERA_USER=admin CAMERA_PASSWORD=admin npm test
 
