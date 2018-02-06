@@ -1,4 +1,4 @@
-## Pakistrano camera control
+# Pakistrano camera control
 
 With this library you can interact with the foscam camera device family.
 
@@ -48,6 +48,12 @@ npm run unit-test
 CAMERA_HOST=192.168.1.4 CAMERA_USER=admin CAMERA_PASSWORD=admin npm test
 
 ```
+
+### Motivation - Who is Pakistrano ?
+Pakistrano is a smart thief. He's always awaiting for best moment to steal
+shoes and/or socks. The target is to catch him while hes doing the best that he knows.
+
+![image](https://user-images.githubusercontent.com/5852187/35884345-b1d27022-0b8a-11e8-8ea1-c644f416bbd1.png)
 
 ### Authors and maintainers
 @zucchinidev
