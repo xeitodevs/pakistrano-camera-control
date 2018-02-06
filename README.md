@@ -7,9 +7,13 @@ With this library you can interact with the foscam camera device family.
 
 You can see the public promise based interface [here](lib/index.js)
 
+### Install via npm
+```bash
+npm install pakistrano-camera-control
+```
 ### Example usage
 ```javascript
-const PakistranoCameraControl = require('./index')
+const PakistranoCameraControl = require('pakistrano-camera-control')
 const pakistranoCameraControl = new PakistranoCameraControl({
   host: '127.0.0.1',
   user: 'admin',
@@ -44,7 +48,7 @@ CAMERA_HOST=192.168.1.4 CAMERA_USER=admin CAMERA_PASSWORD=admin npm test
 # run unit tests
 npm run unit-test
 
-# run intergation tests (you must have a camera available on your network)
+# run integration tests (you must have a camera available on your network)
 CAMERA_HOST=192.168.1.4 CAMERA_USER=admin CAMERA_PASSWORD=admin npm test
 
 ```
