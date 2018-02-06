@@ -1,6 +1,6 @@
 {
   "name": "pakistrano-camera-control",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": "https://github.com/xeitodevs/pakistrano-camera-control",
   "description": "A pakistrano control system.",
   "main": "src/index.js",
@@ -12,7 +12,11 @@
     "precommit": "npm run unit-test && npm run lint"
   },
   "keywords": [
+    "camera",
+    "foscam",
     "pakis",
+    "video",
+    "stream",
     "control",
     "system"
   ],
