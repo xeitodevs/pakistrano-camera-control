@@ -1,7 +1,7 @@
 {
-  "name": "pakistrano",
+  "name": "pakistrano-camera-control",
   "version": "0.0.1",
-  "description": "A pakis control system.",
+  "description": "A pakistrano control system.",
   "main": "src/index.js",
   "scripts": {
     "test": "nyc --reporter=lcov ava test/ --verbose",
