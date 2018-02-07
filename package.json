@@ -1,9 +1,9 @@
 {
   "name": "pakistrano-camera-control",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "repository": "https://github.com/xeitodevs/pakistrano-camera-control",
   "description": "A pakistrano control system.",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "nyc --reporter=lcov ava test/ --verbose",
     "unit-test": "nyc --reporter=lcov ava test/ --verbose --match='*unit test*'",
