@@ -1,6 +1,6 @@
 {
   "name": "pakistrano-camera-control",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "repository": "https://github.com/xeitodevs/pakistrano-camera-control",
   "description": "A pakistrano control system.",
   "main": "lib/index.js",
@@ -25,11 +25,11 @@
   "devDependencies": {
     "ava": "^0.25.0",
     "husky": "^0.14.3",
-    "nyc": "^11.4.1",
+    "nyc": "^11.7.1",
     "standard": "^10.0.3"
   },
   "dependencies": {
-    "request": "^2.83.0",
+    "request": "^2.85.0",
     "request-promise-native": "^1.0.5"
   }
 }
