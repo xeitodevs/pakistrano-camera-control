@@ -1,6 +1,6 @@
 {
   "name": "pakistrano-camera-control",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "repository": "https://github.com/xeitodevs/pakistrano-camera-control",
   "description": "A pakistrano control system.",
   "main": "lib/index.js",
