@@ -2,6 +2,9 @@
 
 With this library you can interact with the foscam camera device family.
 
+## Camera server (before you continue reading)
+If you are thinking on developing a front webservice for this driver, it almost done at [here](https://github.com/xeitodevs/pakistrano-camera-server)
+
 ### Tested models
 - FI8910W
 
